@@ -1,0 +1,25 @@
+/*** Main style for Landing ***/
+
+@use postcss-normalize;
+
+/** global */
+@import 'global/variables.css';
+@import 'global/basic.css';
+@import 'global/heading.css';
+
+/** components */
+@import 'components/buttons.css';
+
+/** page blocks */
+@import 'page-blocks/header.css';
+
+@import 'page-blocks/navigation.css';
+@import 'page-blocks/section-title.css';
+
+
+@import 'page-blocks/services.css';
+@import 'page-blocks/portfolio.css';
+@import 'page-blocks/brands.css';
+@import 'page-blocks/reviews.css';
+@import 'page-blocks/contacts.css';
+@import 'page-blocks/footer.css';

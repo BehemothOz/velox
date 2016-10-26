@@ -1,0 +1,36 @@
+.main-header {
+  padding-top: 25px;
+  height: 100vh;
+  background: url(../img/bg_header.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header__logo {
+  display: block;
+}
+
+.main-header__heading {
+  padding-top: 15%;
+  color: $white;
+  text-align: center;
+}
+
+.main-header__title {
+  margin-bottom: 0.5em;
+  font-family: $Lora;
+  font-size: 58px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.main-header__desc {
+  margin-bottom: 80px;
+  font-size: 25px;
+  font-weight: 400;
+}
