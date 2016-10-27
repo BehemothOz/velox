@@ -1,14 +1,14 @@
 
-/*Color*/
+/** Color */
 
 $white: #fff;
 $blue_light: #00a5ff;
 $black_light: #3a3f4b;
 $black_dark: #3b404c;
 $gray: #999;
+$azure: #f5f6f8;
 
-
-/*Fonts*/
+/** Fonts */
 
 $Lora: 'Lora', serif;
 $Open: 'Open Sans', sans-serif;

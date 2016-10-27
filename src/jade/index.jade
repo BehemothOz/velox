@@ -5,6 +5,8 @@ html(lang="en")
     title Document
     link(href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,700" rel="stylesheet")
     link(rel="stylesheet", href="css/main.css")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css")
+
   body
 
     include inc/01_header
@@ -14,3 +16,15 @@ html(lang="en")
     include inc/05_reviews
     include inc/06_contacts
     include inc/07_footer
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js")
+    script.
+      var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        //- autoplay: 4000,
+        speed: 800,
+        loop: true
+      });

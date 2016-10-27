@@ -1,0 +1,30 @@
+.reviews {
+  padding: 65px 0;
+}
+
+.reviews__section-title {
+  margin-bottom: 60px;
+}
+
+.review-slide {
+  color: $black_light;
+  text-align: center;
+}
+
+.review-slide__quote {
+  padding: 0 11em;
+  font-family: $Lora;
+  font-size: 24px;
+}
+
+.review-slide__info-person {
+  font-size: 18px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.swiper-container {
+  padding-bottom: 60px;
+}

@@ -110,7 +110,6 @@ gulp.task('image', function () {
             use: [pngquant()],
             interlaced: true
         }))
-        .pipe(notify({ message: 'Update img complete' }))
         .pipe(gulp.dest('dist/img'));
 });
 

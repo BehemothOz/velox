@@ -1,0 +1,21 @@
+.section-title {
+  position: relative;
+  padding-bottom: 0.4em;
+  font-family: $Lora;
+  font-size: 42px;
+  font-weight: 700;
+  color: $black_light;
+  text-transform: uppercase;
+  text-align: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 147px;
+    height: 2px;
+    background-color: $blue_light;
+  }
+}

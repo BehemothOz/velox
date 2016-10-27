@@ -1,0 +1,67 @@
+/* ** Portfolio ** */
+
+.portfolio {
+  padding: 30px 0 70px;
+  text-align: center;
+  background-color: $azure;
+}
+
+.portfolio__section-title {
+  margin-bottom: 45px;
+}
+
+.portfolio__filter {
+  margin-bottom: 30px;
+}
+
+.filter__list {
+  display: flex;
+  justify-content: center;
+}
+
+.filter__item {
+  margin-right: 30px;
+  padding: 0.4em 0.7em;
+  font-size: 14px;
+  color: $gray;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &_active {
+    color: $blue_light;
+    text-decoration: underline;
+  }
+}
+
+.portfolio__inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.portfolio-card {
+  width: calc(100% / 3 - 10px);
+  margin-bottom: 15px;
+  box-shadow: 0 0 13px -4px $black_light;
+}
+
+.portfolio-card__img {
+  img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+
+.portfolio-card__name {
+  padding: 1.2em 1.8em;
+  font-size: 18px;
+  color: $gray;
+  text-align: left;
+}
