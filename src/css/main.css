@@ -10,13 +10,15 @@
 /** components */
 @import 'components/buttons.css';
 
+/** page elements */
+@import 'page-elements/navigation.css';
+@import 'page-elements/info-block.css';
+@import 'page-elements/form.css';
+@import 'page-elements/social-btn.css';
+
 /** page blocks */
 @import 'page-blocks/header.css';
-
-@import 'page-blocks/navigation.css';
 @import 'page-blocks/section-title.css';
-
-
 @import 'page-blocks/services.css';
 @import 'page-blocks/portfolio.css';
 @import 'page-blocks/brands.css';

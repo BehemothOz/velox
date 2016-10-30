@@ -1,27 +1,32 @@
-.main-header {
+/** Header **/
+
+.header {
   padding-top: 25px;
   height: 100vh;
   background: url(../img/bg_header.jpg) no-repeat center;
   background-size: cover;
 }
 
-.top-header {
+.header__top-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.top-header__logo {
+
+/* logo */
+.logo {
   display: block;
 }
 
-.main-header__heading {
+/* heading for header */
+.header__heading {
   padding-top: 15%;
   color: $white;
   text-align: center;
 }
 
-.main-header__title {
+.header__heading-title {
   margin-bottom: 0.5em;
   font-family: $Lora;
   font-size: 58px;
@@ -29,7 +34,7 @@
   font-weight: 700;
 }
 
-.main-header__desc {
+.header__heading-desc {
   margin-bottom: 80px;
   font-size: 25px;
   font-weight: 400;

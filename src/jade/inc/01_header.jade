@@ -1,17 +1,17 @@
 // main header
 
-header.main-header
+header.header
   div.container
 
-    div.top-header
+    div.header__top-line
       //- logo
-      a.top-header__link(href="#~")
-        img.top-header__logo.logo(src="img/logo.png", alt="logo")
+      div.header__logo
+        a(href="#`"): img.logo(src="img/logo.png", alt="logo")
 
       //- navigation
       include blocks/navigation.jade
 
-    div.main-header__heading
-      h1.main-header__title Velox One Page Template
-      h2.main-header__desc Clean, Responsive, customizable one page template
+    div.header__heading
+      h1.header__heading-title Velox One Page Template
+      h2.header__heading-desc Clean, Responsive, customizable one page template
       button.btn Get Started Now

@@ -1,0 +1,40 @@
+/*** Social button */
+
+.social-btn {
+
+}
+
+.social-btn__item {
+  float: left;
+  margin-right: 10px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.social-btn__link {
+  display: block;
+  width: 31px;
+  height: 31px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: no-repeat center;
+
+  &_fb {
+    background-image: url('../img/icon_soc-fb.png');
+  }
+
+  &_tw {
+    background-image: url('../img/icon_soc-twitter.png');
+  }
+
+  &_ph {
+    background-image: url('../img/icon_soc-path.png');
+  }
+
+  &_lk {
+    background-image: url('../img/icon_soc-link.png');
+  }
+}

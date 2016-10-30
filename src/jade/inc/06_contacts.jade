@@ -1,0 +1,41 @@
+// Contacts
+
+section.contacts
+  div.container
+    div.contacts__top-line
+      h1.contacts__title Contacts Us
+      
+      nav.nav.nav-contacts
+        ul.nav__list
+          li.nav__item.nav__item_size_lg: a.nav__link(href="") Services
+          li.nav__item.nav__item_size_lg: a.nav__link(href="") Portofolio
+          li.nav__item.nav__item_size_lg: a.nav__link(href="") Testimonials
+          li.nav__item.nav__item_size_lg: a.nav__link(href="") About
+          li.nav__item.nav__item_size_lg: a.nav__link(href="") Contact
+
+    div.contacts__bottom-line
+      ul.info-block.contacts__info-block
+        li.info-block__item
+          h3.info-block__head Our address
+          span.info-block__desc House No,11132, Sector 31, Gurgaon 122001  India
+        li.info-block__item
+          h3.info-block__head Call us
+          span.info-block__desc + 91-9876543210 <br>+ 01262219018
+        li.info-block__item
+          h3.info-block__head Email us
+          span.info-block__desc contactus@email.com
+
+
+      div.contacts__form
+        form(action="#`" method="post")
+          div.contacts-form__wrap
+            label(for="name" class="label contacts-form__label") Name :
+              input(type="text" name="name" id="name" class="input contacts-form__input")
+
+            label(for="subject" class="label contacts-form__label") Subject :
+              input(type="text" name="subject" id="subject" class="input contacts-form__input")
+
+          label(for="message" class="label contacts-form__label") Your Message :
+            textarea(name="message" id="message" class="textarea contacts-form__textarea")
+
+          button.btn Send message

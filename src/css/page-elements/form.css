@@ -1,0 +1,44 @@
+.label {
+  display: block;
+  font-size: 26px;
+  line-height: 1.8;
+  margin-bottom: 1.5em;
+  color: $white;
+
+  & > input,
+  & > textarea {
+    display: block;
+  }
+}
+
+.label:hover {
+  color: $blue_light;
+
+  & > .input,
+  & > .textarea {
+    color: $white;
+    border-bottom-color: $blue_light;
+  }
+}
+
+
+.input,
+.textarea {
+  padding: 0.2em 0.5em;
+  font-size: 20px;
+  color: inherit;
+  border: none;
+  border-bottom: 1px solid $gray;
+  background-color: transparent;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-bottom-color: $blue_light;
+}
+
+.textarea {
+  resize: none;
+}
+

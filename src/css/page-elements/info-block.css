@@ -1,0 +1,18 @@
+/*** Info block */
+
+.info-block__item {
+  margin-bottom: 40px;
+}
+
+.info-block__head {
+  margin-bottom: 0.8em;
+  font-size: 24px;
+  font-weight: 600;
+  color: $white;
+}
+
+.info-block__desc {
+  font-size: 18px;
+  font-weight: 400;
+  color: $gray;
+}

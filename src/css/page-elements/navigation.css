@@ -1,6 +1,6 @@
-/** Navigation */
+/*** Navigation */
 
-.main-navigation__list {
+.nav__list {
   &::after {
     content: '';
     display: table;
@@ -8,17 +8,23 @@
   }
 }
 
-.main-navigation__item {
+.nav__item {
   float: left;
   margin-right: 3.5em;
   font-size: 14px;
   font-weight: 600;
+
+  &_size_lg {
+    margin-right: 0.5em;
+    font-size: 21px;
+    font-weight: 400;
+  }
 
   &:last-of-type {
     margin-right: 0;
   }
 }
 
-.main-navigation__link {
+.nav__link {
   padding: 0.5em;
 }
