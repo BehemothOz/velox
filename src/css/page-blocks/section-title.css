@@ -8,6 +8,10 @@
   text-transform: uppercase;
   text-align: center;
 
+    @media screen and (max-width: 480px) {
+      font-size: 28px;
+    }
+
   &::after {
     content: '';
     position: absolute;

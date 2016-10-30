@@ -26,6 +26,14 @@
   text-align: center;
   background: no-repeat center top;
 
+    @media screen and (max-width: 768px) {
+      width: calc(100% / 2);
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 100%;
+    }
+
   &_logo {
     background-image: url('../img/icon_serv1.png');
   }

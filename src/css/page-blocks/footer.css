@@ -6,6 +6,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 480px) {
+    display: block;
+    text-align: center;
+  }
 }
 
 .copyright {
@@ -13,4 +18,14 @@
   font-size: 13px;
   font-weight: 400;
   color: $gray;
+}
+
+.footer__social-btn {
+  order: 1;
+
+  @media screen and (max-width: 480px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
 }

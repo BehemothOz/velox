@@ -48,6 +48,18 @@
   width: calc(100% / 3 - 10px);
   margin-bottom: 15px;
   box-shadow: 0 0 13px -4px $black_light;
+
+    @media screen and (max-width: 768px) {
+      width: calc(100% / 2 - 10px);
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 100%;
+
+      &:nth-of-type(n+5) {
+        display: none;
+      }
+    }
 }
 
 .portfolio-card__img {

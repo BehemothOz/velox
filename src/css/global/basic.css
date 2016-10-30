@@ -5,10 +5,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: $white;
+  overflow-x: hidden;
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1190px;
   margin: 0 auto;
   padding: 0 10px;
 }

@@ -2,7 +2,7 @@
 
 .header {
   padding-top: 25px;
-  height: 100vh;
+  min-height: 100vh;
   background: url(../img/bg_header.jpg) no-repeat center;
   background-size: cover;
 }
@@ -19,11 +19,35 @@
   display: block;
 }
 
+.js-btn-menu {
+  display: none;
+  font-family: $Lora;
+  font-size: 22px;
+  color: $white;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
+.nav__header {
+  color: rgba(255, 255, 255,.6);
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+
 /* heading for header */
 .header__heading {
-  padding-top: 15%;
+  padding-top: 25vh;
   color: $white;
   text-align: center;
+
+  @media screen and (max-width: 480px) {
+    padding-top: 20vh;
+  }
 }
 
 .header__heading-title {
@@ -32,10 +56,18 @@
   font-size: 58px;
   line-height: 1.2;
   font-weight: 700;
+
+  @media screen and (max-width: 480px) {
+    font-size: 38px;
+  }
 }
 
 .header__heading-desc {
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
   font-size: 25px;
   font-weight: 400;
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 }

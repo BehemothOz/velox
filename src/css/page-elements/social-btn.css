@@ -1,7 +1,11 @@
 /*** Social button */
 
 .social-btn {
-
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
 }
 
 .social-btn__item {

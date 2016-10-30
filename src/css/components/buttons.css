@@ -8,8 +8,12 @@
   box-shadow: 0 2px 4.8px 0.3px rgba(0, 0, 0, 0.25);
   background-color: $blue_light;
   cursor: pointer;
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 }
 
-.btn--uppercase {
+.btn_uppercase {
   text-transform: uppercase;
 }
